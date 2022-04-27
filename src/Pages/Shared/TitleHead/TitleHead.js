@@ -1,10 +1,11 @@
 import React from 'react';
 
-const TitleHead = () => {
-    return (
-        <div>
+const TitleHead = ({ title }) => {
 
-            <h1>VUlenteer List</h1>
+    return (
+        <div className='mt-5'>
+
+            <h1>{title}</h1>
 
 
 

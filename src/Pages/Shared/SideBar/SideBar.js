@@ -11,7 +11,7 @@ const SideBar = () => {
 
 
     return (
-        <div>
+        <div className='mt-5'>
             <div><Nav className="flex-column">
                 <Nav.Link as={Link} to="/addevent">Vulenteer LIst</Nav.Link>
                 <Nav.Link as={Link} to="/">Add Event</Nav.Link>

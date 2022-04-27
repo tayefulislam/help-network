@@ -1,13 +1,15 @@
 import React from 'react';
 import SideBar from '../../../Shared/SideBar/SideBar';
 import TitleHead from '../../../Shared/TitleHead/TitleHead';
+import './VolunteerList.css'
 
 const VolunteerList = () => {
     return (
         <div className='volunreer-list'>
 
 
-            <div ><SideBar></SideBar></div>
+            <div><SideBar></SideBar></div>
+
             <div>
                 <TitleHead></TitleHead>
                 <div>

@@ -1,20 +1,32 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Nav } from 'react-bootstrap';
+import { Link, Route, Routes } from 'react-router-dom';
 import SideBar from '../Shared/SideBar/SideBar';
 import TitleHead from '../Shared/TitleHead/TitleHead';
+import AddEvent from './Admin/AddEvent/AddEvent';
 import VolunteerList from './Admin/VolunteerList/VolunteerList';
+import './Dashboard.css'
 
 const Dashboard = () => {
+
+
     return (
-        <div>
+        <div className='container'>
 
 
-            <div><SideBar></SideBar></div>
+            <div className='sidebar'><SideBar></SideBar></div>
 
             <div>
-                <TitleHead></TitleHead>
-
+                <AddEvent></AddEvent>
             </div>
+
+
+
+
+
+
+
+
 
         </div>
     );
