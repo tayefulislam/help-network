@@ -1,0 +1,27 @@
+.search-title {
+    text-align: center;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin: 30px 20px 0;
+
+
+}
+
+.image {
+    width: 100%;
+
+}
+
+.image-name {
+    color: rgb(255, 255, 255);
+}
+
+.image-con {
+    border: none;
+    border-radius: 8px;
+
+}
