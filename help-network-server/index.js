@@ -32,6 +32,8 @@ async function run() {
         const eventCollections = client.db("helpNetwork").collection("events");
         const lImageCollections = client.db("helpNetwork").collection("landingData");
 
+        const volunteerCollections = client.db("helpNetwork").collection("volunteers");
+
 
 
         // laanfing page img load
@@ -52,6 +54,14 @@ async function run() {
             res.send(result)
 
 
+        })
+
+        // add volueteer
+
+        app.post('/addvolunteer', async (req, res) => {
+            const volunteer = req.body;
+            const result = await volunteerCollections.insertOne(volunteer);
+            res.send(result)
         })
 
 

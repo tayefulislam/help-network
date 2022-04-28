@@ -1,0 +1,16 @@
+.register-title {
+    text-align: center;
+}
+
+.form {}
+
+.line {
+    border: 1px solid rgb(97, 96, 96);
+
+}
+
+.input-felid {
+    border: none;
+    color: rgb(17, 16, 16);
+
+}
